@@ -1,0 +1,457 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.bg-image{
+  background-image: url('../images/banner.jpg');
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.black-bg{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: auto;
+}
+
+.top-nav-icons{
+  padding: 1.2rem 0;
+}
+
+.top-nav-icons i{
+  color: white;
+  padding: 0 0.5rem;
+  font-size: 24px;
+}
+
+.login-btn button i{
+  color: white;
+}
+
+.login-btn button{
+  background: #b31f28;
+  color: white;
+  border: none;
+  width: 90px;
+  height: 70px;
+}
+
+.logo{
+  max-width: 1150px;
+  margin: auto;
+}
+
+.logo img{
+  width: 140px;
+  padding-top: 2%;
+}
+
+.main-nav{
+  background: #b31f28;
+  color: white;
+  max-width: 1150px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items{
+  display: flex;
+  padding-left: 1rem;
+}
+
+.nav-items li{
+  list-style: none; 
+  padding: 1.5rem 0.7rem;
+}
+
+.search-bar{
+  margin: 1rem 1.5rem 1rem 0;
+  background: white;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 18px;
+}
+
+.search-bar i{
+  color: black;
+}
+
+.search-bar input{
+  border: none;
+}
+
+.banner-content{
+  color: white;
+  max-width: 600px;
+  margin-left: 52%;
+  margin-right: auto;
+  padding: 1rem 0 2rem 0;
+}
+
+.banner-heading{
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 55px;
+}
+
+.red-txt{
+  color: #b31f28;
+  font-weight: 600;
+}
+
+.banner-desc{
+  padding: 1rem 0;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.banner-btn button{
+  background: #b31f28;
+  color: white;
+  border: none;
+  width: 110px;
+  height: 55px;
+}
+
+.black-bg-container{
+  background: #121212;
+}
+
+.main-container{
+  max-width: 1150px;
+  margin: auto;
+  padding: 5rem 0;
+}
+
+.spotlight{
+  color: white;
+  padding: 0 0 4rem 0;
+}
+
+.spotlight-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.spotlight-head p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.arrow-btn i{
+  font-size: 22px;
+  padding: 0 0.5rem;
+}
+
+.spotlight-cards{
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.spotlight-card img{
+  border-radius: 25px;
+  width: 180px;
+  height: 220px;
+}
+
+.sp-name{
+  padding: 0.6rem 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.spotlight-footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.blue-tag{
+  background: blue;
+  color: white;
+  width: 45px;
+  max-height: 23px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.strike-txt{
+  text-decoration: line-through;
+}
+
+.free-games{
+  background: #3b3b3b;
+  color: white;
+  border-radius: 20px;
+}
+
+.fg-heading{
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fg-heading-left{
+  display: flex;
+}
+
+.fg-heading-left p{
+  font-size: 24px;
+  margin: auto 0;
+  padding-left: 1rem;
+}
+
+.fg-heading-right{
+  margin: 1rem 0;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #b31f28;
+  background: #3b3b3b;
+  color: white;
+}
+
+.fg-heading-right:hover{
+  background: #b31f28;
+  cursor: pointer;
+}
+
+.fg-cards{
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fg-img-card img{
+  width: 530px;
+  height: 280px;
+}
+
+.fg-card-desc{
+  line-height: 10px;
+}
+
+.fg-title{
+  font-size: 20px;
+  font-weight: 500;
+  padding: 1.5rem 0 0.2rem 0;
+}
+
+.fg-desc{
+  font-size: 14px;
+}
+
+.news-section{
+  padding: 6rem 0;
+}
+
+.news-head{
+  background: #b31f28;
+  color: white;
+  display: flex;
+  height: 50px;
+  font-size: 24px;
+}
+
+.news-head i,.news-head p{
+  margin: 0.4rem 0 0.4rem 1rem;
+}
+
+.news-nav{
+  background: white;
+  height: 80px;
+}
+
+.news-nav button{
+  margin: 1.2rem 0 1.2rem 1.5rem;
+  background: #3c3c3c;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 6px 18px;
+}
+
+.news-nav button:hover{
+  background: #b31f28;
+}
+
+.news-card img{
+  width: 400px;
+  height: 300px;
+}
+
+.news-card{
+  display: flex;
+  background: white;
+}
+
+.card-head{
+  width: 93%;
+  margin: auto;
+  padding: 4.5rem 0;
+}
+
+.news-card-head{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.news-card-desc{
+  font-weight: 600;
+}
+
+.gallery-head{
+  background: #b31f28;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1rem;
+  height: 75px;
+}
+
+.gallery-head-left{
+  display: flex;
+  font-size: 24px;
+}
+
+.gallery-head-left p{
+  padding: 0 0 0 1rem;
+}
+
+.gallery-head-right button{
+  background: #3c3c3c;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0 0.6rem;
+}
+
+.gallery-head-right button:hover{
+  background: #858080;
+}
+
+.img-row-1{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.img-row-2{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.img-row-3{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.g1{
+  width: 39.5%;
+}
+
+.g2{
+  width: 59.5%;
+}
+
+.g3{
+  width: 49.5%;
+}
+
+.g4{
+  width: 49.5%;
+}
+
+.g5{
+  width: 32.9%;
+}
+
+.g6{
+  width: 32.9%;
+}
+
+.g7{
+  width: 32.9%;
+}
+
+footer{
+  background: #1b1b1b;
+}
+
+.footer-content{
+  max-width: 1150px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon-left i{
+  color: white;
+  font-size: 24px;
+  padding: 0 0.5rem;
+}
+
+.footer-icon-right i{
+  color: white;
+  font-size: 24px;
+  padding: 0 0.5rem;
+}
+
+.footer-links{
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links img{
+  width: 300px;
+}
+
+.footer-link{
+  color: white;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.footer-link-left, .footer-link-right{
+  margin: 0 4rem;
+}
+
+.grey-txt{
+  color: #858080;
+}
+
+.footer-desc{
+  color: white;
+  width: 60%;
+  padding: 2rem 0;
+  font-size: 12px;
+}
+
+.footer-end{
+  color: white;
+  display: flex;
+  font-size: 14px;
+}
+
+.footer-end-txt{
+  margin: 0 0 0 3rem;
+}
