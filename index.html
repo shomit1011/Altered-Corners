@@ -28,7 +28,7 @@
                 <div class="login-btn">
                     <button>
                         <i class="bi bi-person-circle"></i>
-                        Login
+                        <a href="#navbar" style="text-decoration: none; color: white;">Login</a>
                     </button>
                 </div>
             </div>
@@ -40,13 +40,13 @@
         <!-- Main Navbar -->
         <nav>
             <div class="main-nav">
-                <div class="nav-items">
-                    <li>HOME</li>
-                    <li>DISCOVER</li>
-                    <li>GALLERY</li>
-                    <li>SHOP</li>
-                    <li>NEWS</li>
-                    <li>CONTACT</li>
+                <div class="nav-items" id="navbar">
+                    <li style="background: rgba(0, 0, 0, 0.5);">HOME</li>
+                    <li><a href="#discover">DISCOVER</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </div>
                 <div class="search-bar">
                     <i class="bi bi-search"></i>
@@ -64,7 +64,7 @@
                 <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat possimus.</p>
             </div>
             <div class="banner-btn">
-                <button>READ MORE</button>
+                <button><a href="#discover" style="text-decoration: none; color: white;">READ MORE</a></button>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
     <div class="black-bg-container">
         <div class="main-container">
             <!-- Spotlight -->
-            <div class="spotlight">
+            <div class="spotlight" id="discover">
                 <div class="spotlight-head">
                     <p>LUNAR NEW SPOTLIGHT > </p>
                     <div class="arrow-btn">
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <!-- Free Games -->
-            <div class="free-games">
+            <div class="free-games" id="shop">
                 <div class="fg-heading">
                     <div class="fg-heading-left">
                         <i class="bi bi-gift" style="color: #b31f28; font-size: 36px;"></i>
@@ -198,7 +198,7 @@
             </div>
             <!-- News Section -->
             <div class="news-section">
-                <div class="news-head">
+                <div class="news-head" id="news">
                     <i class="bi bi-caret-right-fill"></i>
                     <p>LATEST NEWS</p>
                 </div>
@@ -232,7 +232,7 @@
             </div>
             <!-- Gallery Section -->
             <div class="gallery-section">
-                <div class="gallery-head">
+                <div class="gallery-head" id="gallery">
                     <div class="gallery-head-left">
                         <i class="bi bi-caret-right-fill"></i>
                         <p>GALLERY</p>
@@ -264,7 +264,7 @@
     </div>
     <!-- Footer -->
     <footer>
-        <div class="footer-content">
+        <div class="footer-content" id="contact">
             <div class="footer-icons">
                 <div class="footer-icon-left">
                     <i class="bi bi-youtube"></i>

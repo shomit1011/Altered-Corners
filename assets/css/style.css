@@ -30,6 +30,7 @@
   color: white;
   padding: 0 0.5rem;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .login-btn button i{
@@ -37,11 +38,15 @@
 }
 
 .login-btn button{
-  background: #b31f28;
+  background: rgba(0, 0, 0, 0);
   color: white;
   border: none;
   width: 90px;
   height: 70px;
+}
+
+.login-btn button:hover{
+  background: #b31f28;
 }
 
 .logo{
@@ -71,6 +76,16 @@
 .nav-items li{
   list-style: none; 
   padding: 1.5rem 0.7rem;
+}
+
+.nav-items li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-items li:hover{
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .search-bar{
